@@ -1,0 +1,9 @@
+#featured-background {
+    background-image: url('../../../assets/home/featured.jpg');
+    opacity: 1;
+
+    /* backdrop-filter: blur(20px); */
+    /* -webkit-backdrop-filter: blur(20px); */
+
+   
+}
