@@ -404,7 +404,7 @@
         "name": "Escalope de Veau",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "offered",
+        "category": "dessert",
         "price": 12.5
     },
     {
@@ -420,7 +420,7 @@
         "name": "Breton Fish Stew",
         "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "pizza",
+        "category": "soup",
         "price": 12.9
     },
     {
@@ -453,6 +453,14 @@
         "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
         "category": "soup",
+        "price": 10.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eear",
+        "name": "Pamir Cola",
+        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
+        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "category": "drinks",
         "price": 10.5
     }
 ]

@@ -3,7 +3,6 @@ import Cover from '../../Shared/Cover/Cover';
 import useMenu from '../../../Hooks/useMenu';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
-
 import maincoverImage from '../../../assets/menu/banner3.jpg'
 import dessertImage from '../../../assets/menu/dessert-bg.jpeg'
 import pizzaImage from '../../../assets/menu/pizza-bg.jpg'
@@ -12,11 +11,12 @@ import soupImage from '../../../assets/menu/soup-bg.jpg'
 
 const Menu = () => {
     const [menu] = useMenu()
-    const desserts = menu.filter(item => item.category === 'dessert')
+    const desserts = menu.filter(item => item.category === 'desserts')
     const pizza = menu.filter(item => item.category === 'pizza')
     const soup = menu.filter(item => item.category === 'soup')
     const salad = menu.filter(item => item.category === 'salad')
     const offered = menu.filter(item => item.category === 'offered')
+    const drinks = menu.filter(item => item.category === 'drinks')
     return (
         <div>
             <Helmet>
@@ -38,13 +38,13 @@ const Menu = () => {
                     {/* Dessert Category */}
                     <MenuCategory image={dessertImage}
                         items={desserts}
-                        title="Desert">
+                        title="desert">
                     </MenuCategory>
 
                     {/* Pizza Category */}
                     <MenuCategory image={pizzaImage}
                         items={pizza}
-                        title="Pizza">
+                        title="pizza">
                     </MenuCategory>
 
                     {/* salad Category */}
